@@ -1,4 +1,4 @@
-package com.ghf.web;
+package com.ghf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

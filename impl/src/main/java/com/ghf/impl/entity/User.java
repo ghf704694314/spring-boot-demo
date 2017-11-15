@@ -1,6 +1,7 @@
-package ghf.impl.entity;
+package com.ghf.impl.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -14,6 +15,7 @@ import javax.persistence.Table;
 @Table(name = "user")
 public class User{
 
+    @Id
     private String id;
     private String name;
 

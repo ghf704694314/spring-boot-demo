@@ -1,7 +1,7 @@
-package ghf.impl.service;
+package com.ghf.impl.service;
 
-import ghf.impl.entity.User;
-import ghf.impl.repository.UserRepository;
+import com.ghf.impl.entity.User;
+import com.ghf.impl.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
