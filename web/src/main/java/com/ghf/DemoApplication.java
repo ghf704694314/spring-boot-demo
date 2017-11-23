@@ -1,29 +1,19 @@
 package com.ghf;
 
-import com.ghf.impl.service.UserService;
+
 import org.apache.tomcat.jdbc.pool.DataSource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.*;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
 @EnableJpaAuditing
 public class DemoApplication {
-
-//	@Autowired
-//	private UserService userService;
-
-//	@RequestMapping("/hello")
-//	public void HelloWorld(){
-//		userService.findById("1");
-//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
