@@ -14,6 +14,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
 @EnableAutoConfiguration
 @ComponentScan
 @EnableJpaAuditing
+@EnableDiscoveryClient
 public class DemoApplication {
 
 	public static void main(String[] args) {

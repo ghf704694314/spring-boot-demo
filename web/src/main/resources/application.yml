@@ -27,6 +27,4 @@ management:
 eureka:
   client:
     service-url:
-      defalutZone: http://localhost:8087/eureka/
-  instance:
-    prefer-ip-address: true
+      defaultZone: http://localhost:8190/eureka/
