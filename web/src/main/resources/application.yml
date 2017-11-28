@@ -1,0 +1,26 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://172.16.1.181:3306/tubobo_driver?characterEncoding=utf-8
+#    name: tbb_driver
+#    password: tbb_driver
+#spring.mvc.view.prefix=/WEB-INF/jsp/
+#spring.mvc.view.suffix=.jsp
+#users.ribbon.listOfServers=http://tubobo-consignor.dev.ops.com,http://tubobo.dev.ops.com/a/login
+
+#¶Ë¿Ú
+server:
+  port: 8090
+
+spring:
+  jpa:
+    properties:
+      hibernate.show_sql: true
+      hibernate.format_sql: true
+      hibernate.use_sql_comments: true
+      hibernate.current_session_context_class: org.springframework.orm.hibernate4.SpringSessionContext
+  application:
+    name: ghfDemo
+management:
+  security:
+    enabled: false
